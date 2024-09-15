@@ -1,0 +1,14 @@
+.vscode
+static/
+env/
+.session
+__pycache__/
+.idea
+*.DS_Store
+.env
+media/*
+
+# Pipenv
+
+Pipfile
+Pipfile.lock
