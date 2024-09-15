@@ -1,14 +1,34 @@
-.vscode
-static/
-env/
-.session
+# Python
+*.pyc
+*.pyo
+*.pyd
 __pycache__/
-.idea
-*.DS_Store
-.env
-media/*
+
+# Virtual Environment
+env/
+venv/
+*.env
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# SQLite Database
+*.sqlite3
+*.db
+
+# Media files
+media/
+
+# System files
+.DS_Store
 
 # Pipenv
-
 Pipfile
 Pipfile.lock
+
+# Session files
+.session
+
+# Static files
+static/
